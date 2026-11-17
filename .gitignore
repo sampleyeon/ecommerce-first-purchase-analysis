@@ -1,0 +1,32 @@
+# 데이터 파일 (원본은 BigQuery 공개 데이터 / Kaggle에서 받기)
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.xlsx
+
+# 인증 정보·비밀 값 (절대 올리지 않기)
+.env
+*.env
+*-key.json
+*credentials*.json
+service-account*.json
+application_default_credentials.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Power BI 임시 파일
+*.pbix.bak
+~$*
+
+# OS·에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
